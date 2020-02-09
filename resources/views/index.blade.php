@@ -70,23 +70,23 @@
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						{{-- <li><a href="#" data-nav-section="blog">Blog</a></li> --}}
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
 
-			<div class="colorlib-footer">
+			{{-- <div class="colorlib-footer">
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> {{-- <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p> --}}
-				<ul>
+				{{-- <ul>
 					<li><a href="#"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
 					<li><a href="#"><i class="icon-instagram"></i></a></li>
 					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+				</ul> --}}
+			{{--</div> --}}
 
 		</aside>
 
@@ -94,32 +94,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   	<li style="background-image: url(images/img_bg_1.png); background-size: contain;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Philip</h1>
-						   					<h2>A Full Stack Web Developer <a href="https://www.linkedin.com/in/philip-yirenkyi/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+					   					<div class="desc text-white">
+						   					<h1 >Hi! <br>I'm Philip</h1>
+						   					<h2 >A Full Stack Web Developer <a href="https://www.linkedin.com/in/philip-yirenkyi/" target="_blank">View my LinkedIn Profile</a></h2>
+												<p><a class="btn btn-primary btn-learn" href="documents/resume.pdf">Download CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
+				   	<li style="background-image: url(images/img_bg_2.png); background-size: contain;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
-						   					<h1>I am <br>A Full Stack Web Develope</h1>
-												<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+						   					<h1>I am <br>A Full Stack Web Developer</h1>
+												<h2>You can view my Github portfolio over here <a href="https://github.com/pwilson77" target="_blank">Github</a></h2>
+												<p><a class="btn btn-primary btn-learn" href="documents/resume.pdf">View Portfolio <i class="icon-briefcase3"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -206,8 +206,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-bulb"></i>
 								</span>
 								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>I have worked </p>
+									<h3>Ecommerce Websites</h3>
+									<p>I am an expert at developing ecommerce websites and developing security functionality for them </p>
 								</div>
 							</div>
 						</div>
@@ -218,7 +218,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</span>
 								<div class="desc">
 									<h3>Software</h3>
-									<p>I have developed a record desktop app for my Church</p>
+									<p>I also have expertise when it comes software solutions such as designing an inventory tracking applications </p>
 								</div>
 							</div>
 						</div>
@@ -228,12 +228,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-phone3"></i>
 								</span>
 								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+									<h3>Machine Design</h3>
+									<p>As a Mechanical Engineer, I specialized in the field of Manufacturing so I do have skills when it comes developing mechanical solutions for 
+										buisnesses
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 text-center animate-box">
+						{{-- <div class="col-md-4 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
 									<i class="icon-layers2"></i>
@@ -265,7 +267,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
 								</div>
 							</div>
-						</div>
+						</div> --}}
 					</div>
 				</div>
 			</section>
@@ -367,8 +369,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>JAVASCRIPT</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
 								    <span>90%</span>
 								  	</div>
 								</div>
@@ -378,8 +380,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>C#</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
 								    <span>60%</span>
 								  	</div>
 								</div>
@@ -389,8 +391,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>SOLIDITY</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
 								    <span>60%</span>
 								  	</div>
 								</div>
@@ -411,8 +413,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>PYTHON</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
 								    <span>60%</span>
 								  	</div>
 								</div>
@@ -440,17 +442,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>FLUTTER</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
+						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
 								<h3>SQL</h3>
@@ -466,9 +458,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>PHP LARAVEL</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
 								  	</div>
 								</div>
 							</div>
@@ -477,9 +469,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>RUBY ON RAILS</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
 								  	</div>
 								</div>
 							</div>
@@ -488,9 +480,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>PYTHON DJANGO</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								    <span>60%</span>
 								  	</div>
 								</div>
 							</div>
@@ -499,8 +491,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="progress-wrap">
 								<h3>ELECTRON FRAMEWORK</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="50"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
 								    <span>50%</span>
 								  	</div>
 								</div>
@@ -537,7 +529,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelors Degree in Mechanical Engineering
 									            </a>
 									        </h4>
 									    </div>
@@ -545,16 +537,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									         <div class="panel-body">
 									            <div class="row">
 										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+										      			<p>The Bachelors Degree in Mechanical Engineering is from the 
+															  Kwame Nkrumah Uinversity of Science & Technology (K.N.U.S.T) </p>
 										      		</div>
 										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										      			<p> In the field of Mechanical Engineering I specialized in the field of Manufacturing & Production which involves 
+															the fileds of CNC Machining and Computer Aided Design (C.A.D)
+														  </p>
 										      		</div>
 										      	</div>
 									         </div>
 									    </div>
 									</div>
-									<div class="panel panel-default">
+									{{-- <div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
@@ -611,7 +606,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
 									        </div>
 									    </div>
-									</div>
+									</div> --}}
 								</div>
 							</div>
 						</div>
@@ -638,8 +633,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					                  <h2><a href="#">Freelance Software Developer</a> <span>2017-</span></h2>
+					                  <p></p>
 					               </div>
 					            </div>
 					         </article>
@@ -651,12 +646,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">GRADUATE INTERN AT TICO/TAQA</a> <span>2019-2020</span></h2>
+					                  <p></p>
 					               </div>
 					            </div>
 					         </article>
-
+{{-- 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-3">
@@ -667,9 +662,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					               </div>
 					            </div>
-					         </article>
+					         </article> --}}
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					         {{-- <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-4">
 					                  <i class="icon-pen2"></i>
@@ -691,7 +686,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					               </div>
 					            </div>
-					         </article>
+					         </article> --}}
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
@@ -713,112 +708,53 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<h2 class="colorlib-heading animate-box">Recent Work</h2>
 						</div>
 					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+					{{-- <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 						<div class="col-md-12">
 							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
 						</div>
-					</div>
+					</div> --}}
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
+							<div class="project" style="background-image: url(images/work2.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
+										<h3><a href="www.fogevents.com">Work 01</a></h3>
+										<span>FOGEVENTS Website</span>
+										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
 											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
+										</p> --}}
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
+							<div class="project" style="background-image: url(images/work1.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
+										<h3><a href="www.saloduumarketplace.com">Work 02</a></h3>
+										<span>SALODUU MARKETPLACE WEBSITE</span>
+										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
 											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
+										</p> --}}
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 					</div>
-					<div class="row">
+					{{-- <div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</section>
 
-			<section class="colorlib-blog" data-section="blog">
+			{{-- <section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -864,7 +800,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> --}}
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
@@ -881,7 +817,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
+									<p><a href="#">p.o.yirenkyi@gmail.com</a></p>
 								</div>
 							</div>
 
@@ -890,7 +826,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-map"></i>
 								</div>
 								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+									<p>P.O. Box 11170 Adum-Kumasi, Ghana</p>
 								</div>
 							</div>
 
@@ -899,7 +835,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
+									<p><a href="tel://">+233-503478398</a></p>
 								</div>
 							</div>
 						</div>
