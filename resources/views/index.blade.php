@@ -141,12 +141,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h2 class="colorlib-heading">Who Am I?</h2>
 										<p><strong>Hi I'm Philip Yirenkyi</strong> A Mechanical Engineer and a Full stack Web Developer.
 											 I got my Mechnaical Engineering degree from the Kwame Nkrumah University of Science
-											 and Technology. I am a self taught web Developer, 
-											 I have more than 2 years experience in software devlopment. 
+											 and Technology. I am a self taught Web Developer with more than 2 years experience 
+											 in Website development. 
 										</p>
 										<p>I have skills in the areas of Computer Aided Deisgn(CAD) and CNC Machining for machine design. In the areas of 
-											website development I am Full Stack Developer with skills in Ruby on Rails and PHP Laravel. I also have experience with 
-											Mobile app development with Flutter and Desktop app development with Electron framework </p>
+											website development I am Full Stack Developer with skills in Ruby on Rails and PHP Laravel with experience in 
+											Mobile app development with Flutter and Desktop app development with the Electron framework </p>
 									</div>
 								</div>
 							</div>
@@ -718,7 +718,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/work2.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="www.fogevents.com">Work 01</a></h3>
+										<h3><a href="https://www.fogevents.com" target="_blank">Work 01</a></h3>
 										<span>FOGEVENTS Website</span>
 										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
@@ -733,7 +733,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/work1.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="www.saloduumarketplace.com">Work 02</a></h3>
+										<h3><a href="https://www.saloduumarketplace.com" target="_blank">Work 02</a></h3>
 										<span>SALODUU MARKETPLACE WEBSITE</span>
 										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
