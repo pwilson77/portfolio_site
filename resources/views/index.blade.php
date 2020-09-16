@@ -94,7 +94,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.png); background-size: contain;">
+				   	<li style="background-image: url(images/p2.png); background-size: contain;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -110,7 +110,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.png); background-size: contain;">
+				   	<li style="background-image: url(images/p1.png); background-size: contain;">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -308,7 +308,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							<p> I have knowledge in more than 10 
+								programming languages and also have 
+								I have experience in the usage of more than 20 frameworks / libraries
+							</p>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
@@ -493,7 +496,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="progress">
 								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="50"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
+								    <span>60%</span>
 								  	</div>
 								</div>
 							</div>
@@ -713,13 +716,28 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
 						</div>
 					</div> --}}
-					<div class="row">
+					{{-- <div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="project" style="background-image: url(images/work2.png);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://www.fogevents.com" target="_blank">Work 01</a></h3>
 										<span>FOGEVENTS Website</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div> --}}
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work1.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://www.marketplace.saloduu.com" target="_blank">Work 01</a></h3>
+										<span>SALODUU MARKETPLACE WEBSITE</span>
 										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
@@ -730,11 +748,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/work1.png);">
+							<div class="project" style="background-image: url(images/schoolBidz.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="https://www.saloduumarketplace.com" target="_blank">Work 02</a></h3>
-										<span>SALODUU MARKETPLACE WEBSITE</span>
+										<h3><a href="http://phplaravel-451039-1412231.cloudwaysapps.com/" target="_blank">Work 02</a></h3>
+										<span>SchoolBidz --A fundraising platform</span>
+										{{-- <p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p> --}}
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/facebook.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="http://phplaravel-451039-1412231.cloudwaysapps.com/" target="_blank">Work 03</a></h3>
+										<span>Facebook Clone -- A Facebook Clone built with Ruby on Rails  </span>
 										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
