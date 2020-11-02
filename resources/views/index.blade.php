@@ -751,7 +751,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/schoolBidz.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="http://phplaravel-451039-1412231.cloudwaysapps.com/" target="_blank">Work 02</a></h3>
+										<h3><a href="https://schoolbidz.com" target="_blank">Work 02</a></h3>
 										<span>SchoolBidz --A fundraising platform</span>
 										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
@@ -766,7 +766,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="project" style="background-image: url(images/facebook.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="http://phplaravel-451039-1412231.cloudwaysapps.com/" target="_blank">Work 03</a></h3>
+										<h3><a href="https://nameless-bastion-79370.herokuapp.com/staticpages/home" target="_blank">Work 03</a></h3>
 										<span>Facebook Clone -- A Facebook Clone built with Ruby on Rails  </span>
 										{{-- <p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
